@@ -1,5 +1,5 @@
 # python_basic_exercises
-## *This repository is created to get the view of some ptython exercises* h2
+## *This repository is created to get the view of some ptython exercises*
 
 ### The way to order the long list of exercises will be the next one
 
