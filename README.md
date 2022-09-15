@@ -4,6 +4,7 @@
 ### The way to order the long list of exercises will be the next one
 
 * From 1-10
+    * Basic data about variables an convertion
 * From 11-20
 * From 21-30
 * From 31-40
