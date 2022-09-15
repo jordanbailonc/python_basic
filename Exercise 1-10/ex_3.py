@@ -3,6 +3,8 @@
 import cmath
 try:
     number_base= input('Write the number you want to know square root: \t')
+    #in this case we use eval instead of float what should be the method used
+    #for real numbers
     number_base= eval(number_base)
 
     number_result= cmath.sqrt(number_base)
