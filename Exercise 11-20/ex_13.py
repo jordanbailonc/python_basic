@@ -1,4 +1,6 @@
 """Python Program to Find the Largest Among Three Numbers """
+
+#class to get the largest number of 3 inputs
 class test_largest:
     def __init__(self,num_a,num_b,num_c):
         self.num_a=num_a
