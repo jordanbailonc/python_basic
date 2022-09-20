@@ -1,5 +1,6 @@
 """Python Program to Print all Prime Numbers in an Interval"""
 
+#class to write the prime numbers diring the interval of inputs
 class writter:
     def __init__(self,start_num,end_num) -> None:
         self.start_num= start_num
