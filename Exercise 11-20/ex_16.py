@@ -1,7 +1,7 @@
 """Python Program to Find the Factorial of a Number"""
 from math import factorial
 
-
+#class Factorial to get result of it
 class Factorial:
     def __init__(self,num_input) -> None:
         self.num_input=num_input
