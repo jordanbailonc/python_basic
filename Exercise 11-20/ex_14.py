@@ -1,7 +1,6 @@
 """Python Program to Check Prime Number """
-from tkinter.tix import ExFileSelectBox
 
-
+#class to check if the numbers are prime or not
 class prime_tester:
     def __init__(self,number) -> None:
         self.number=number
@@ -22,7 +21,6 @@ class prime_tester:
             print('{0} is a prime number.'.format(self.number))
 
 try:
-    print('uwu')
     user_input = int(input('Write the number you want to check:\t'))
     my_tester = prime_tester(user_input)
     my_tester.check_number()
