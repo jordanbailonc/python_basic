@@ -1,5 +1,6 @@
 """Python Program to Check if a Number is Odd or Even """
 
+#class to get the numbers in order
 class Classifier:
     def __init__(self,intro_num):
         self.intro_num=intro_num
@@ -15,5 +16,6 @@ try:
     input_num =float(input('Write the number input:\t'))
     my_classi= Classifier(input_num)
     my_classi.getClassification()
+
 except:
     print('Content must be numeric')
