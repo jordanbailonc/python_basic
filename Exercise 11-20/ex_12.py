@@ -1,5 +1,6 @@
 """Python Program to Check Leap Year """
 
+#class to test if a year is leap or not
 class Leap_year_tester:
     def __init__(self,year):
         self.year=year
