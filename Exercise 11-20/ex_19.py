@@ -1,8 +1,9 @@
 """Python Program to Check Armstrong Number"""
 
 class Armstrong:
-    def __init__(self,input_num) -> None:
+    def __init__(self,input_num, num2) -> None:
         self.input_num=input_num
+        self.num=num2
 
     def check_armstrong(self):
         sum=0
