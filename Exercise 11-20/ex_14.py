@@ -1,6 +1,6 @@
 """Python Program to Check Prime Number """
 
-#class to check if the numbers are prime or not
+
 class prime_tester:
     def __init__(self,number) -> None:
         self.number=number
