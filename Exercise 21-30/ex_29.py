@@ -1,13 +1,10 @@
 """Python Program to Make a Simple Calculator"""
 
 
-from ast import Add
-
-
 def addition():
     num1=int(input('Write the first number:\t'))
     num2=int(input('Write the second number:\t'))
-    print(num1*num2)
+    print(num1+num2)
 
 def substraction():
     num1=int(input('Write the first number:\t'))
