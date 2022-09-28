@@ -31,9 +31,11 @@ def switch(x):
 
 
 
-my_options={'1.- Addition','2.- Substraction','3.-Product','4.-Reminance','0.- Log Out'}
+my_options=['1.-Addition','2.-Substraction','3.-Product','4.-Reminance','0.-Log Out']
 while True:
-    print(*my_options,sep="\n")
+    print('.... OPTIONS ....')
+    for option in my_options:
+        print(option)
 
     choice= int (input('Write the option:\t'))
     if(choice==0):
