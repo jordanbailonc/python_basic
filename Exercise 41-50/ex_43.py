@@ -17,7 +17,7 @@ class Counter_vowels():
                 counts[char] +=1
 
         for x,y in counts.items():
-            print(x,y)
+            print('The  letter {0} appears {1} times'.format(x,y))
 
     
 try:
