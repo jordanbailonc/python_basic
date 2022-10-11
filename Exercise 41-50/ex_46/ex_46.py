@@ -1,6 +1,7 @@
 """Python Program to Find the hash of a File"""
 
 import hashlib
+from operator import ge
 
 #this method returns thr hash code from a file input in it
 def hash_sum(filename):
@@ -27,7 +28,7 @@ try:
         if in_name==str(0):
             break
         else:
-            in_name= my_path+''+in_name
-            print('The hash of the file written is:\t',hash_sum(in_name))
+            all_path= my_path+''+in_name
+            print('The hash of the file {0} written is:\t{1}'.format(in_name, hash_sum(all_path)))
 except Exception as ex:
     print(ex)
